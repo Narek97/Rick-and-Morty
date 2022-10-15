@@ -1,0 +1,11 @@
+.about_header{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 40px;
+  padding: 40px;
+  p{
+    text-align: center;
+    line-height: 40px;
+  }
+}

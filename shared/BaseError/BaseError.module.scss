@@ -1,0 +1,8 @@
+@import "styles/mixin";
+@import "styles/variable";
+
+.error {
+  @include absolute-center;
+  color: $RED_COLOR;
+  font-size: 24px
+}

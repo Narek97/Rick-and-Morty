@@ -1,0 +1,17 @@
+@import "styles/mixin";
+
+.user_list {
+  padding: 40px;
+
+  &__title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+  }
+
+  &__user {
+    @include flex-center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+}

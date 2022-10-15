@@ -1,0 +1,20 @@
+@import "styles/mixin";
+
+
+.base_header {
+  height: 40px;
+  border-bottom: 1px solid gray;
+
+  &__nav {
+    width: 100%;
+    height: inherit;
+    @include flex-center;
+  }
+
+  &__ul {
+    width: 100%;
+    height: inherit;
+    @include flex-center;
+    justify-content: space-around;
+  }
+}

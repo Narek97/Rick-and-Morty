@@ -1,0 +1,7 @@
+@import "styles/mixin";
+
+.no_data {
+  @include absolute-center;
+  color: #000000;
+  font-size: 24px;
+}

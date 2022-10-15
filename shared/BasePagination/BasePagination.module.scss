@@ -1,0 +1,12 @@
+@import "styles/mixin";
+
+.base_pagination {
+  @include flex-center;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.base_pagination_btn {
+  border: 1px solid black;
+  padding: 4px;
+}

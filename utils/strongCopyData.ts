@@ -1,0 +1,1 @@
+export const strongCopyData = (data: any) => JSON.stringify(data);

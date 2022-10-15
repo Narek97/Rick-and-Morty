@@ -1,0 +1,7 @@
+@import "styles/mixin";
+
+.base_footer {
+  height: 40px;
+  background-color: gray;
+  @include flex-center;
+}
